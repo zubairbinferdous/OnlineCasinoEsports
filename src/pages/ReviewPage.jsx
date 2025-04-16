@@ -447,34 +447,7 @@ const ReviewPage = () => {
 
 
   <div className="container my-5">
-    <h2 className="mb-4">FAQ</h2>
-    <div className="accordion" id="faqAccordion">
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="headingOne">
-          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-            Is 22Bet Casino license regulated and trustworthy?
-          </button>
-        </h2>
-        <div id="collapseOne" className="accordion-collapse collapse show">
-          <div className="accordion-body">
-            The casino is licensed and regulated in Curaçao, has 15 years of experience, and treats players fairly.
-          </div>
-        </div>
-      </div>
-      <div className="accordion-item">
-        <h2 className="accordion-header">
-          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-            Am I subject to fees when depositing and cashing out?
-          </button>
-        </h2>
-        <div id="collapseTwo" className="accordion-collapse collapse">
-          <div className="accordion-body">
-            {/* <!-- Add corresponding answer here --> */}
-          </div>
-        </div>
-      </div>
-      {/* <!-- Add the rest of the FAQ items similarly --> */}
-    </div>
+
 
     <hr className="my-5"/>
 
@@ -524,6 +497,63 @@ const ReviewPage = () => {
     </div>
     <div className="text-center">
       <button className="btn btn-success">Show More</button>
+    </div>
+
+    <hr className="my-5"/>
+
+<h2 className="mb-4">Online Gambling News</h2>
+<div className="row">
+  <div className="col-md-6 mb-4">
+    <div className="card news-card">
+      <img src="https://via.placeholder.com/400x250" className="card-img-top" alt="VIP Club Showdown"/>
+      <div className="card-body">
+        <h5 className="card-title">VIP Club Showdown: Comparing Top 5 Casino Loyalty Programs</h5>
+        <p className="card-text"><small className="text-muted">February 12, 2025</small></p>
+      </div>
+    </div>
+  </div>
+  <div className="col-md-6 mb-4">
+    <div className="card news-card">
+      <img src="https://via.placeholder.com/400x250" className="card-img-top" alt="RNG in Gambling"/>
+      <div className="card-body">
+        <h5 className="card-title">RNG in Gambling: How It Ensures Fair Play and Why It Matters</h5>
+        <p className="card-text"><small className="text-muted">February 9, 2025</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div className="text-center">
+  <button className="btn btn-success">Show More</button>
+</div>
+
+
+<h2 className="mb-4">FAQ</h2>
+    <div className="accordion" id="faqAccordion">
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="headingOne">
+          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Is 22Bet Casino license regulated and trustworthy?
+          </button>
+        </h2>
+        <div id="collapseOne" className="accordion-collapse collapse show">
+          <div className="accordion-body">
+            The casino is licensed and regulated in Curaçao, has 15 years of experience, and treats players fairly.
+          </div>
+        </div>
+      </div>
+      <div className="accordion-item">
+        <h2 className="accordion-header">
+          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Am I subject to fees when depositing and cashing out?
+          </button>
+        </h2>
+        <div id="collapseTwo" className="accordion-collapse collapse">
+          <div className="accordion-body">
+            {/* <!-- Add corresponding answer here --> */}
+          </div>
+        </div>
+      </div>
+      {/* <!-- Add the rest of the FAQ items similarly --> */}
     </div>
   </div>
 

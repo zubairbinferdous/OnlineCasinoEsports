@@ -434,10 +434,14 @@
   width: auto;
   color: #000;
   height: 900px;
+  padding-left: 20px;
 }
 
 .sideBer {
   color: #000 !important;
+}
+.sideBer:hover {
+  color: #3ebd45 !important;
 }
 
 .pros-cons-box {

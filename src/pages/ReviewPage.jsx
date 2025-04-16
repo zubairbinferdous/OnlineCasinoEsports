@@ -581,7 +581,7 @@ const ReviewPage = () => {
         </div>
       </aside>
     </div>
-  </div>
+     </div>
 
       <Footer></Footer>
     </>

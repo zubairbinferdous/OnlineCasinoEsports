@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './index.css'
 import About from './pages/About.jsx'
 import Home from './pages/Home.jsx'
+import MainPages from './pages/MainPages.jsx'
 import ReviewPage from './pages/ReviewPage.jsx'
 
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path:'/review',
     element:<ReviewPage></ReviewPage>
+  },
+  {
+    path:'/main',
+    element:<MainPages></MainPages>
   },
  
 ]);

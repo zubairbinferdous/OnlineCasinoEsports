@@ -429,6 +429,58 @@
   margin-top: 10px;
 }
 
+/* review  */
+.sidebar {
+  width: auto;
+  color: #000;
+  height: 900px;
+}
+
+.sideBer {
+  color: #000 !important;
+}
+
+.pros-cons-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.bonus-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.bonus-card .btn {
+  background-color: #fbc02d;
+  border: none;
+}
+.green-box {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.feature-icon {
+  margin-right: 8px;
+}
+.feature-section,
+.live-section,
+.games-section {
+  max-width: 100%;
+  margin-top: 40px;
+}
+.card-feature {
+  padding: 10px;
+}
+.game-icon {
+  font-size: 1.2rem;
+}
+
 @media (min-width: 1400px) {
   .container,
   .container-lg,

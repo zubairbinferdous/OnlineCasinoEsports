@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './index.css'
 import About from './pages/About.jsx'
 import Home from './pages/Home.jsx'
+import ReviewPage from './pages/ReviewPage.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path:'/home',
     element:<Home></Home>
+  },
+  {
+    path:'/review',
+    element:<ReviewPage></ReviewPage>
   },
  
 ]);
